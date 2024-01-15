@@ -12,3 +12,6 @@ app.layout = html.Div ([
         style= { "width": "100%"}
     )  
 ])
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
